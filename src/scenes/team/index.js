@@ -24,6 +24,7 @@ const Team = () => {
 
             return(
                 <Box
+                    
                     width={'60%'}
                     m = '0 auto'
                     p= '5px'
@@ -36,9 +37,9 @@ const Team = () => {
                     }
                     borderRadius='4px'
                 >
-                    {access === 'admin' && <AdminPanelSettingsIcon />}
-                    {access === 'manager' && <SecurityIcon />}
-                    {access === 'user' && <LockOpenIcon />}
+                    {access === 'admin' && <AdminPanelSettingsIcon sx={{color :'#f5f9f3'}} />}
+                    {access === 'manager' && <SecurityIcon sx={{ color :'#f5f9f3'}} />}
+                    {access === 'user' && <LockOpenIcon sx={{ color :'#f5f9f3'}} />}
                     <Typography color={'#f5f9f3'} sx={{ml: '5px'}}>
                         {access}
                     </Typography>
@@ -56,6 +57,26 @@ const Team = () => {
             <Header title="Team" subtitle = 'Managing the Team Members' />
             <Box
                 m='10px 0 0 0'
+                sx={{
+                    
+                    ".& .MuiDataGrid-cell": {
+                        borderBottom: 'none',
+                    },
+                    "& .name-column--cell": {
+                        color: colors.Secondary[500],
+                    },
+                    "& .MuiDataGrid-columnHeader": {
+                        borderBottom: 'none',
+                        backgroundColor: colors.Secondary[600],
+                    },
+                    "& .MuiDataGrid-virtualScroller": {
+                        backgroundColor: colors.Secondary[900],
+                    },
+                    "& .MuiDataGrid-footerContainer": {
+                        borderTop: 'none',
+                        backgroundColor: colors.Secondary[600],
+                    },
+                }}
                
             >
                 <DataGrid
