@@ -38,7 +38,7 @@ const Invoices = () => {
                 height={ '75vh'}
                 sx={{
                     
-                    ".& .MuiDataGrid-cell": {
+                    "& .MuiDataGrid-cell": {
                         borderBottom: 'none',
                     },
                     "& .name-column--cell": {
