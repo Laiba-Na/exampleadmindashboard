@@ -319,83 +319,69 @@ export const mockTransactions = [
 
 export const mockBarData = [
   {
-    country: "AD",
+    "country": "AD",
+    "hot dog": 114,
+    "burger": 99,
+    "sandwich": 111,
+    "kebab": 111,
+    "fries": 35,
+    "donut": 188
+  },
+  {
+    "country": "AE",
     "hot dog": 137,
-    "hot dogColor": "hsl(229, 70%, 50%)",
-    burger: 96,
-    burgerColor: "hsl(296, 70%, 50%)",
-    kebab: 72,
-    kebabColor: "hsl(97, 70%, 50%)",
-    donut: 140,
-    donutColor: "hsl(340, 70%, 50%)",
+    "burger": 42,
+    "sandwich": 43,
+    "kebab": 66,
+    "fries": 184,
+    "donut": 152
   },
   {
-    country: "AE",
+    "country": "AF",
+    "hot dog": 99,
+    "burger": 160,
+    "sandwich": 57,
+    "kebab": 164,
+    "fries": 106,
+    "donut": 18
+  },
+  {
+    "country": "AG",
+    "hot dog": 87,
+    "burger": 134,
+    "sandwich": 48,
+    "kebab": 44,
+    "fries": 28,
+    "donut": 102
+  },
+  {
+    "country": "AI",
+    "hot dog": 138,
+    "burger": 113,
+    "sandwich": 52,
+    "kebab": 195,
+    "fries": 180,
+    "donut": 140
+  },
+  {
+    "country": "AL",
     "hot dog": 55,
-    "hot dogColor": "hsl(307, 70%, 50%)",
-    burger: 28,
-    burgerColor: "hsl(111, 70%, 50%)",
-    kebab: 58,
-    kebabColor: "hsl(273, 70%, 50%)",
-    donut: 29,
-    donutColor: "hsl(275, 70%, 50%)",
+    "burger": 105,
+    "sandwich": 131,
+    "kebab": 121,
+    "fries": 66,
+    "donut": 110
   },
   {
-    country: "AF",
-    "hot dog": 109,
-    "hot dogColor": "hsl(72, 70%, 50%)",
-    burger: 23,
-    burgerColor: "hsl(96, 70%, 50%)",
-    kebab: 34,
-    kebabColor: "hsl(106, 70%, 50%)",
-    donut: 152,
-    donutColor: "hsl(256, 70%, 50%)",
-  },
-  {
-    country: "AG",
-    "hot dog": 133,
-    "hot dogColor": "hsl(257, 70%, 50%)",
-    burger: 52,
-    burgerColor: "hsl(326, 70%, 50%)",
-    kebab: 43,
-    kebabColor: "hsl(110, 70%, 50%)",
-    donut: 83,
-    donutColor: "hsl(9, 70%, 50%)",
-  },
-  {
-    country: "AI",
-    "hot dog": 81,
-    "hot dogColor": "hsl(190, 70%, 50%)",
-    burger: 80,
-    burgerColor: "hsl(325, 70%, 50%)",
-    kebab: 112,
-    kebabColor: "hsl(54, 70%, 50%)",
-    donut: 35,
-    donutColor: "hsl(285, 70%, 50%)",
-  },
-  {
-    country: "AL",
-    "hot dog": 66,
-    "hot dogColor": "hsl(208, 70%, 50%)",
-    burger: 111,
-    burgerColor: "hsl(334, 70%, 50%)",
-    kebab: 167,
-    kebabColor: "hsl(182, 70%, 50%)",
-    donut: 18,
-    donutColor: "hsl(76, 70%, 50%)",
-  },
-  {
-    country: "AM",
-    "hot dog": 80,
-    "hot dogColor": "hsl(87, 70%, 50%)",
-    burger: 47,
-    burgerColor: "hsl(141, 70%, 50%)",
-    kebab: 158,
-    kebabColor: "hsl(224, 70%, 50%)",
-    donut: 49,
-    donutColor: "hsl(274, 70%, 50%)",
-  },
-];
+    "country": "AM",
+    "hot dog": 195,
+    "burger": 77,
+    "sandwich": 60,
+    "kebab": 114,
+    "fries": 86,
+    "donut": 93
+  }
+]
 
 export const mockPieData = [
   {
@@ -432,168 +418,271 @@ export const mockPieData = [
 
 export const mockLineData = [
   {
-    id: "japan",
-    color: tokens("dark").Secondary[500],
-    data: [
+    "id": "japan",
+    "data": [
       {
-        x: "plane",
-        y: 101,
+        "x": "plane",
+        "y": 35
       },
       {
-        x: "helicopter",
-        y: 75,
+        "x": "helicopter",
+        "y": 132
       },
       {
-        x: "boat",
-        y: 36,
+        "x": "boat",
+        "y": 289
       },
       {
-        x: "train",
-        y: 216,
+        "x": "train",
+        "y": 128
       },
       {
-        x: "subway",
-        y: 35,
+        "x": "subway",
+        "y": 72
       },
       {
-        x: "bus",
-        y: 236,
+        "x": "bus",
+        "y": 70
       },
       {
-        x: "car",
-        y: 88,
+        "x": "car",
+        "y": 132
       },
       {
-        x: "moto",
-        y: 232,
+        "x": "moto",
+        "y": 183
       },
       {
-        x: "bicycle",
-        y: 281,
+        "x": "bicycle",
+        "y": 30
       },
       {
-        x: "horse",
-        y: 1,
+        "x": "horse",
+        "y": 216
       },
       {
-        x: "skateboard",
-        y: 35,
+        "x": "skateboard",
+        "y": 101
       },
       {
-        x: "others",
-        y: 14,
-      },
-    ],
+        "x": "others",
+        "y": 65
+      }
+    ]
   },
   {
-    id: "france",
-    color: tokens("dark").Third[300],
-    data: [
+    "id": "france",
+    "data": [
       {
-        x: "plane",
-        y: 212,
+        "x": "plane",
+        "y": 202
       },
       {
-        x: "helicopter",
-        y: 190,
+        "x": "helicopter",
+        "y": 117
       },
       {
-        x: "boat",
-        y: 270,
+        "x": "boat",
+        "y": 201
       },
       {
-        x: "train",
-        y: 9,
+        "x": "train",
+        "y": 228
       },
       {
-        x: "subway",
-        y: 75,
+        "x": "subway",
+        "y": 26
       },
       {
-        x: "bus",
-        y: 175,
+        "x": "bus",
+        "y": 142
       },
       {
-        x: "car",
-        y: 33,
+        "x": "car",
+        "y": 78
       },
       {
-        x: "moto",
-        y: 189,
+        "x": "moto",
+        "y": 71
       },
       {
-        x: "bicycle",
-        y: 97,
+        "x": "bicycle",
+        "y": 6
       },
       {
-        x: "horse",
-        y: 87,
+        "x": "horse",
+        "y": 39
       },
       {
-        x: "skateboard",
-        y: 299,
+        "x": "skateboard",
+        "y": 147
       },
       {
-        x: "others",
-        y: 251,
-      },
-    ],
+        "x": "others",
+        "y": 114
+      }
+    ]
   },
   {
-    id: "us",
-    color: tokens("dark").Fourth[200],
-    data: [
+    "id": "us",
+    "data": [
       {
-        x: "plane",
-        y: 191,
+        "x": "plane",
+        "y": 250
       },
       {
-        x: "helicopter",
-        y: 136,
+        "x": "helicopter",
+        "y": 196
       },
       {
-        x: "boat",
-        y: 91,
+        "x": "boat",
+        "y": 89
       },
       {
-        x: "train",
-        y: 190,
+        "x": "train",
+        "y": 224
       },
       {
-        x: "subway",
-        y: 211,
+        "x": "subway",
+        "y": 227
       },
       {
-        x: "bus",
-        y: 152,
+        "x": "bus",
+        "y": 1
       },
       {
-        x: "car",
-        y: 189,
+        "x": "car",
+        "y": 193
       },
       {
-        x: "moto",
-        y: 152,
+        "x": "moto",
+        "y": 199
       },
       {
-        x: "bicycle",
-        y: 8,
+        "x": "bicycle",
+        "y": 219
       },
       {
-        x: "horse",
-        y: 197,
+        "x": "horse",
+        "y": 250
       },
       {
-        x: "skateboard",
-        y: 107,
+        "x": "skateboard",
+        "y": 180
       },
       {
-        x: "others",
-        y: 170,
-      },
-    ],
+        "x": "others",
+        "y": 220
+      }
+    ]
   },
-];
+  {
+    "id": "germany",
+    "data": [
+      {
+        "x": "plane",
+        "y": 283
+      },
+      {
+        "x": "helicopter",
+        "y": 61
+      },
+      {
+        "x": "boat",
+        "y": 205
+      },
+      {
+        "x": "train",
+        "y": 130
+      },
+      {
+        "x": "subway",
+        "y": 237
+      },
+      {
+        "x": "bus",
+        "y": 85
+      },
+      {
+        "x": "car",
+        "y": 204
+      },
+      {
+        "x": "moto",
+        "y": 223
+      },
+      {
+        "x": "bicycle",
+        "y": 202
+      },
+      {
+        "x": "horse",
+        "y": 233
+      },
+      {
+        "x": "skateboard",
+        "y": 281
+      },
+      {
+        "x": "others",
+        "y": 34
+      }
+    ]
+  },
+  {
+    "id": "norway",
+    "data": [
+      {
+        "x": "plane",
+        "y": 263
+      },
+      {
+        "x": "helicopter",
+        "y": 12
+      },
+      {
+        "x": "boat",
+        "y": 257
+      },
+      {
+        "x": "train",
+        "y": 138
+      },
+      {
+        "x": "subway",
+        "y": 44
+      },
+      {
+        "x": "bus",
+        "y": 259
+      },
+      {
+        "x": "car",
+        "y": 149
+      },
+      {
+        "x": "moto",
+        "y": 221
+      },
+      {
+        "x": "bicycle",
+        "y": 121
+      },
+      {
+        "x": "horse",
+        "y": 181
+      },
+      {
+        "x": "skateboard",
+        "y": 187
+      },
+      {
+        "x": "others",
+        "y": 166
+      }
+    ]
+  }
+]
 
 export const mockGeographyData = [
   {
