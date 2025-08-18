@@ -5,16 +5,16 @@ import { Box, Icon, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
 import { tokens } from "../../theme";
 import HomeIcon from "@mui/icons-material/Home";
-import People from "@mui/icons-material/People";
-import Contacts from "@mui/icons-material/Contacts";
-import Receipt from "@mui/icons-material/Receipt";
-import Person from "@mui/icons-material/Person";
-import CalendarToday from "@mui/icons-material/CalendarToday";
-import Help from "@mui/icons-material/Help";
-import BarChart from "@mui/icons-material/BarChart";
-import PieChart from "@mui/icons-material/PieChart";
-import Timeline from "@mui/icons-material/Timeline";
-import Map from "@mui/icons-material/Map";
+import PeopleIcon from "@mui/icons-material/People";
+import ContactsIcon from "@mui/icons-material/Contacts";
+import ReceiptIcon from "@mui/icons-material/Receipt";
+import PersonIcon from "@mui/icons-material/Person";
+import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
+import HelpIcon from "@mui/icons-material/Help";
+import BarChartIcon from "@mui/icons-material/BarChart";
+import PieChartIcon from "@mui/icons-material/PieChart";
+import TimelineIcon from "@mui/icons-material/Timeline";
+import MapIcon from "@mui/icons-material/Map";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
@@ -148,21 +148,21 @@ const Sidebar = () => {
             <Item
               title="Manage Team"
               to="/team"
-              icon={<People />}
+              icon={<PeopleIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Contacts Information"
               to="/contacts"
-              icon={<Contacts />}
+              icon={<ContactsIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Invoices Balances"
               to="/invoices"
-              icon={<Receipt />}
+              icon={<ReceiptIcon />}
               selected={selected}
               setSelected={setSelected}
             />
@@ -176,21 +176,21 @@ const Sidebar = () => {
             <Item
               title="Profile Form"
               to="/form"
-              icon={<Person />}
+              icon={<PersonIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Calendar"
               to="/calendar"
-              icon={<CalendarToday />}
+              icon={<CalendarTodayIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="FAQ Page"
               to="/faq"
-              icon={<Help />}
+              icon={<HelpIcon />}
               selected={selected}
               setSelected={setSelected}
             />
@@ -204,28 +204,28 @@ const Sidebar = () => {
             <Item
               title="Bar Chart"
               to="/bar"
-              icon={<BarChart />}
+              icon={<BarChartIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Pie Chart"
               to="/pie"
-              icon={<PieChart />}
+              icon={<PieChartIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Line Chart"
               to="/line"
-              icon={<Timeline />}
+              icon={<TimelineIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Geography Chart"
               to="/geography"
-              icon={<Map />}
+              icon={<MapIcon />}
               selected={selected}
               setSelected={setSelected}
             />
