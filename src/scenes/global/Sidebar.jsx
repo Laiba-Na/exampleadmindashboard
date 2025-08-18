@@ -4,7 +4,7 @@ import "react-pro-sidebar/dist/css/styles.css";
 import { Box, Icon, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
 import { tokens } from "../../theme";
-import Home from "@mui/icons-material/Home";
+import HomeIcon from "@mui/icons-material/Home";
 import People from "@mui/icons-material/People";
 import Contacts from "@mui/icons-material/Contacts";
 import Receipt from "@mui/icons-material/Receipt";
@@ -134,7 +134,7 @@ const Sidebar = () => {
             <Item
               title="Dashboard"
               to="/"
-              icon={<Home />}
+              icon={<HomeIcon />}
               selected={selected}
               setSelected={setSelected}
             />
