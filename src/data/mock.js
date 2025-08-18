@@ -1,5 +1,3 @@
-import { tokens } from "../theme";
-
 export const mockDataTeam = [
   {
     id: 1,
@@ -319,69 +317,69 @@ export const mockTransactions = [
 
 export const mockBarData = [
   {
-    "country": "AD",
+    country: "AD",
     "hot dog": 114,
-    "burger": 99,
-    "sandwich": 111,
-    "kebab": 111,
-    "fries": 35,
-    "donut": 188
+    burger: 99,
+    sandwich: 111,
+    kebab: 111,
+    fries: 35,
+    donut: 188,
   },
   {
-    "country": "AE",
+    country: "AE",
     "hot dog": 137,
-    "burger": 42,
-    "sandwich": 43,
-    "kebab": 66,
-    "fries": 184,
-    "donut": 152
+    burger: 42,
+    sandwich: 43,
+    kebab: 66,
+    fries: 184,
+    donut: 152,
   },
   {
-    "country": "AF",
+    country: "AF",
     "hot dog": 99,
-    "burger": 160,
-    "sandwich": 57,
-    "kebab": 164,
-    "fries": 106,
-    "donut": 18
+    burger: 160,
+    sandwich: 57,
+    kebab: 164,
+    fries: 106,
+    donut: 18,
   },
   {
-    "country": "AG",
+    country: "AG",
     "hot dog": 87,
-    "burger": 134,
-    "sandwich": 48,
-    "kebab": 44,
-    "fries": 28,
-    "donut": 102
+    burger: 134,
+    sandwich: 48,
+    kebab: 44,
+    fries: 28,
+    donut: 102,
   },
   {
-    "country": "AI",
+    country: "AI",
     "hot dog": 138,
-    "burger": 113,
-    "sandwich": 52,
-    "kebab": 195,
-    "fries": 180,
-    "donut": 140
+    burger: 113,
+    sandwich: 52,
+    kebab: 195,
+    fries: 180,
+    donut: 140,
   },
   {
-    "country": "AL",
+    country: "AL",
     "hot dog": 55,
-    "burger": 105,
-    "sandwich": 131,
-    "kebab": 121,
-    "fries": 66,
-    "donut": 110
+    burger: 105,
+    sandwich: 131,
+    kebab: 121,
+    fries: 66,
+    donut: 110,
   },
   {
-    "country": "AM",
+    country: "AM",
     "hot dog": 195,
-    "burger": 77,
-    "sandwich": 60,
-    "kebab": 114,
-    "fries": 86,
-    "donut": 93
-  }
-]
+    burger: 77,
+    sandwich: 60,
+    kebab: 114,
+    fries: 86,
+    donut: 93,
+  },
+];
 
 export const mockPieData = [
   {
@@ -418,271 +416,271 @@ export const mockPieData = [
 
 export const mockLineData = [
   {
-    "id": "japan",
-    "data": [
+    id: "japan",
+    data: [
       {
-        "x": "plane",
-        "y": 35
+        x: "plane",
+        y: 35,
       },
       {
-        "x": "helicopter",
-        "y": 132
+        x: "helicopter",
+        y: 132,
       },
       {
-        "x": "boat",
-        "y": 289
+        x: "boat",
+        y: 289,
       },
       {
-        "x": "train",
-        "y": 128
+        x: "train",
+        y: 128,
       },
       {
-        "x": "subway",
-        "y": 72
+        x: "subway",
+        y: 72,
       },
       {
-        "x": "bus",
-        "y": 70
+        x: "bus",
+        y: 70,
       },
       {
-        "x": "car",
-        "y": 132
+        x: "car",
+        y: 132,
       },
       {
-        "x": "moto",
-        "y": 183
+        x: "moto",
+        y: 183,
       },
       {
-        "x": "bicycle",
-        "y": 30
+        x: "bicycle",
+        y: 30,
       },
       {
-        "x": "horse",
-        "y": 216
+        x: "horse",
+        y: 216,
       },
       {
-        "x": "skateboard",
-        "y": 101
+        x: "skateboard",
+        y: 101,
       },
       {
-        "x": "others",
-        "y": 65
-      }
-    ]
+        x: "others",
+        y: 65,
+      },
+    ],
   },
   {
-    "id": "france",
-    "data": [
+    id: "france",
+    data: [
       {
-        "x": "plane",
-        "y": 202
+        x: "plane",
+        y: 202,
       },
       {
-        "x": "helicopter",
-        "y": 117
+        x: "helicopter",
+        y: 117,
       },
       {
-        "x": "boat",
-        "y": 201
+        x: "boat",
+        y: 201,
       },
       {
-        "x": "train",
-        "y": 228
+        x: "train",
+        y: 228,
       },
       {
-        "x": "subway",
-        "y": 26
+        x: "subway",
+        y: 26,
       },
       {
-        "x": "bus",
-        "y": 142
+        x: "bus",
+        y: 142,
       },
       {
-        "x": "car",
-        "y": 78
+        x: "car",
+        y: 78,
       },
       {
-        "x": "moto",
-        "y": 71
+        x: "moto",
+        y: 71,
       },
       {
-        "x": "bicycle",
-        "y": 6
+        x: "bicycle",
+        y: 6,
       },
       {
-        "x": "horse",
-        "y": 39
+        x: "horse",
+        y: 39,
       },
       {
-        "x": "skateboard",
-        "y": 147
+        x: "skateboard",
+        y: 147,
       },
       {
-        "x": "others",
-        "y": 114
-      }
-    ]
+        x: "others",
+        y: 114,
+      },
+    ],
   },
   {
-    "id": "us",
-    "data": [
+    id: "us",
+    data: [
       {
-        "x": "plane",
-        "y": 250
+        x: "plane",
+        y: 250,
       },
       {
-        "x": "helicopter",
-        "y": 196
+        x: "helicopter",
+        y: 196,
       },
       {
-        "x": "boat",
-        "y": 89
+        x: "boat",
+        y: 89,
       },
       {
-        "x": "train",
-        "y": 224
+        x: "train",
+        y: 224,
       },
       {
-        "x": "subway",
-        "y": 227
+        x: "subway",
+        y: 227,
       },
       {
-        "x": "bus",
-        "y": 1
+        x: "bus",
+        y: 1,
       },
       {
-        "x": "car",
-        "y": 193
+        x: "car",
+        y: 193,
       },
       {
-        "x": "moto",
-        "y": 199
+        x: "moto",
+        y: 199,
       },
       {
-        "x": "bicycle",
-        "y": 219
+        x: "bicycle",
+        y: 219,
       },
       {
-        "x": "horse",
-        "y": 250
+        x: "horse",
+        y: 250,
       },
       {
-        "x": "skateboard",
-        "y": 180
+        x: "skateboard",
+        y: 180,
       },
       {
-        "x": "others",
-        "y": 220
-      }
-    ]
+        x: "others",
+        y: 220,
+      },
+    ],
   },
   {
-    "id": "germany",
-    "data": [
+    id: "germany",
+    data: [
       {
-        "x": "plane",
-        "y": 283
+        x: "plane",
+        y: 283,
       },
       {
-        "x": "helicopter",
-        "y": 61
+        x: "helicopter",
+        y: 61,
       },
       {
-        "x": "boat",
-        "y": 205
+        x: "boat",
+        y: 205,
       },
       {
-        "x": "train",
-        "y": 130
+        x: "train",
+        y: 130,
       },
       {
-        "x": "subway",
-        "y": 237
+        x: "subway",
+        y: 237,
       },
       {
-        "x": "bus",
-        "y": 85
+        x: "bus",
+        y: 85,
       },
       {
-        "x": "car",
-        "y": 204
+        x: "car",
+        y: 204,
       },
       {
-        "x": "moto",
-        "y": 223
+        x: "moto",
+        y: 223,
       },
       {
-        "x": "bicycle",
-        "y": 202
+        x: "bicycle",
+        y: 202,
       },
       {
-        "x": "horse",
-        "y": 233
+        x: "horse",
+        y: 233,
       },
       {
-        "x": "skateboard",
-        "y": 281
+        x: "skateboard",
+        y: 281,
       },
       {
-        "x": "others",
-        "y": 34
-      }
-    ]
+        x: "others",
+        y: 34,
+      },
+    ],
   },
   {
-    "id": "norway",
-    "data": [
+    id: "norway",
+    data: [
       {
-        "x": "plane",
-        "y": 263
+        x: "plane",
+        y: 263,
       },
       {
-        "x": "helicopter",
-        "y": 12
+        x: "helicopter",
+        y: 12,
       },
       {
-        "x": "boat",
-        "y": 257
+        x: "boat",
+        y: 257,
       },
       {
-        "x": "train",
-        "y": 138
+        x: "train",
+        y: 138,
       },
       {
-        "x": "subway",
-        "y": 44
+        x: "subway",
+        y: 44,
       },
       {
-        "x": "bus",
-        "y": 259
+        x: "bus",
+        y: 259,
       },
       {
-        "x": "car",
-        "y": 149
+        x: "car",
+        y: 149,
       },
       {
-        "x": "moto",
-        "y": 221
+        x: "moto",
+        y: 221,
       },
       {
-        "x": "bicycle",
-        "y": 121
+        x: "bicycle",
+        y: 121,
       },
       {
-        "x": "horse",
-        "y": 181
+        x: "horse",
+        y: 181,
       },
       {
-        "x": "skateboard",
-        "y": 187
+        x: "skateboard",
+        y: 187,
       },
       {
-        "x": "others",
-        "y": 166
-      }
-    ]
-  }
-]
+        x: "others",
+        y: 166,
+      },
+    ],
+  },
+];
 
 export const mockGeographyData = [
   {
