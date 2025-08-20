@@ -62,7 +62,7 @@ const Sidebar = () => {
     >
       <ProSidebar
         collapsed={iscollapsed}
-        style={{ overflowY: "hidden", height: "140%" }}
+        style={{ overflowY: "hidden", height: "150%" }}
       >
         <Menu iconShape="square">
           <MenuItem
